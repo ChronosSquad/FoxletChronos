@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B937095201C51CD008B3925 /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B937094201C51CD008B3925 /* HomeInterfaceController.swift */; };
+		7B937099201C69EE008B3925 /* ButtonRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B937098201C69EE008B3925 /* ButtonRowController.swift */; };
+		7B93709B201D457F008B3925 /* OptionsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B93709A201D457F008B3925 /* OptionsInterfaceController.swift */; };
+		7BA8A2E4201C2DC800F45423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A2E3201C2DC800F45423 /* AppDelegate.swift */; };
+		7BA8A2E6201C2DC800F45423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A2E5201C2DC800F45423 /* ViewController.swift */; };
+		7BA8A2E9201C2DC800F45423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A2E7201C2DC800F45423 /* Main.storyboard */; };
+		7BA8A2EB201C2DC800F45423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A2EA201C2DC800F45423 /* Assets.xcassets */; };
+		7BA8A2EE201C2DC800F45423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A2EC201C2DC800F45423 /* LaunchScreen.storyboard */; };
+		7BA8A2F9201C2DC800F45423 /* ChronosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A2F8201C2DC800F45423 /* ChronosTests.swift */; };
+		7BA8A304201C2DC800F45423 /* ChronosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A303201C2DC800F45423 /* ChronosUITests.swift */; };
+		7BA8A309201C2DC800F45423 /* Chronos WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7BA8A308201C2DC800F45423 /* Chronos WatchKit App.app */; };
+		7BA8A30F201C2DC800F45423 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A30D201C2DC800F45423 /* Interface.storyboard */; };
+		7BA8A311201C2DC800F45423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A310201C2DC800F45423 /* Assets.xcassets */; };
+		7BA8A318201C2DC800F45423 /* Chronos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7BA8A317201C2DC800F45423 /* Chronos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BA8A31F201C2DC800F45423 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A31E201C2DC800F45423 /* InterfaceController.swift */; };
+		7BA8A321201C2DC800F45423 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A320201C2DC800F45423 /* ExtensionDelegate.swift */; };
+		7BA8A323201C2DC800F45423 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A322201C2DC800F45423 /* NotificationController.swift */; };
+		7BA8A325201C2DC800F45423 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA8A324201C2DC800F45423 /* GlanceController.swift */; };
+		7BA8A327201C2DC800F45423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA8A326201C2DC800F45423 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BA8A2F5201C2DC800F45423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA8A2D8201C2DC700F45423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA8A2DF201C2DC700F45423;
+			remoteInfo = Chronos;
+		};
+		7BA8A300201C2DC800F45423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA8A2D8201C2DC700F45423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA8A2DF201C2DC700F45423;
+			remoteInfo = Chronos;
+		};
+		7BA8A30A201C2DC800F45423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA8A2D8201C2DC700F45423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA8A307201C2DC800F45423;
+			remoteInfo = "Chronos WatchKit App";
+		};
+		7BA8A319201C2DC800F45423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA8A2D8201C2DC700F45423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BA8A316201C2DC800F45423;
+			remoteInfo = "Chronos WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BA8A32E201C2DC800F45423 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7BA8A318201C2DC800F45423 /* Chronos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A332201C2DC800F45423 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7BA8A309201C2DC800F45423 /* Chronos WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B937094201C51CD008B3925 /* HomeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
+		7B937098201C69EE008B3925 /* ButtonRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRowController.swift; sourceTree = "<group>"; };
+		7B93709A201D457F008B3925 /* OptionsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsInterfaceController.swift; sourceTree = "<group>"; };
+		7BA8A2E0201C2DC700F45423 /* Chronos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8A2E3201C2DC800F45423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BA8A2E5201C2DC800F45423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BA8A2E8201C2DC800F45423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA8A2EA201C2DC800F45423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA8A2ED201C2DC800F45423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BA8A2EF201C2DC800F45423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA8A2F4201C2DC800F45423 /* ChronosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8A2F8201C2DC800F45423 /* ChronosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronosTests.swift; sourceTree = "<group>"; };
+		7BA8A2FA201C2DC800F45423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA8A2FF201C2DC800F45423 /* ChronosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8A303201C2DC800F45423 /* ChronosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronosUITests.swift; sourceTree = "<group>"; };
+		7BA8A305201C2DC800F45423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA8A308201C2DC800F45423 /* Chronos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chronos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8A30E201C2DC800F45423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7BA8A310201C2DC800F45423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA8A312201C2DC800F45423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA8A317201C2DC800F45423 /* Chronos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Chronos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8A31D201C2DC800F45423 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7BA8A31E201C2DC800F45423 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7BA8A320201C2DC800F45423 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7BA8A322201C2DC800F45423 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7BA8A324201C2DC800F45423 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		7BA8A326201C2DC800F45423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA8A328201C2DC800F45423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA8A2DD201C2DC700F45423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2F1201C2DC800F45423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2FC201C2DC800F45423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A314201C2DC800F45423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA8A2D7201C2DC700F45423 = {
+			isa = PBXGroup;
+			children = (
+				7BA8A2E2201C2DC700F45423 /* Chronos */,
+				7BA8A2F7201C2DC800F45423 /* ChronosTests */,
+				7BA8A302201C2DC800F45423 /* ChronosUITests */,
+				7BA8A30C201C2DC800F45423 /* Chronos WatchKit App */,
+				7BA8A31B201C2DC800F45423 /* Chronos WatchKit Extension */,
+				7BA8A2E1201C2DC700F45423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA8A2E1201C2DC700F45423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A2E0201C2DC700F45423 /* Chronos.app */,
+				7BA8A2F4201C2DC800F45423 /* ChronosTests.xctest */,
+				7BA8A2FF201C2DC800F45423 /* ChronosUITests.xctest */,
+				7BA8A308201C2DC800F45423 /* Chronos WatchKit App.app */,
+				7BA8A317201C2DC800F45423 /* Chronos WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA8A2E2201C2DC700F45423 /* Chronos */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A2E3201C2DC800F45423 /* AppDelegate.swift */,
+				7BA8A2E5201C2DC800F45423 /* ViewController.swift */,
+				7BA8A2E7201C2DC800F45423 /* Main.storyboard */,
+				7BA8A2EA201C2DC800F45423 /* Assets.xcassets */,
+				7BA8A2EC201C2DC800F45423 /* LaunchScreen.storyboard */,
+				7BA8A2EF201C2DC800F45423 /* Info.plist */,
+			);
+			path = Chronos;
+			sourceTree = "<group>";
+		};
+		7BA8A2F7201C2DC800F45423 /* ChronosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A2F8201C2DC800F45423 /* ChronosTests.swift */,
+				7BA8A2FA201C2DC800F45423 /* Info.plist */,
+			);
+			path = ChronosTests;
+			sourceTree = "<group>";
+		};
+		7BA8A302201C2DC800F45423 /* ChronosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A303201C2DC800F45423 /* ChronosUITests.swift */,
+				7BA8A305201C2DC800F45423 /* Info.plist */,
+			);
+			path = ChronosUITests;
+			sourceTree = "<group>";
+		};
+		7BA8A30C201C2DC800F45423 /* Chronos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A30D201C2DC800F45423 /* Interface.storyboard */,
+				7BA8A310201C2DC800F45423 /* Assets.xcassets */,
+				7BA8A312201C2DC800F45423 /* Info.plist */,
+			);
+			path = "Chronos WatchKit App";
+			sourceTree = "<group>";
+		};
+		7BA8A31B201C2DC800F45423 /* Chronos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A31E201C2DC800F45423 /* InterfaceController.swift */,
+				7BA8A320201C2DC800F45423 /* ExtensionDelegate.swift */,
+				7BA8A322201C2DC800F45423 /* NotificationController.swift */,
+				7BA8A324201C2DC800F45423 /* GlanceController.swift */,
+				7BA8A326201C2DC800F45423 /* Assets.xcassets */,
+				7BA8A328201C2DC800F45423 /* Info.plist */,
+				7BA8A31C201C2DC800F45423 /* Supporting Files */,
+				7B937094201C51CD008B3925 /* HomeInterfaceController.swift */,
+				7B93709A201D457F008B3925 /* OptionsInterfaceController.swift */,
+				7B937098201C69EE008B3925 /* ButtonRowController.swift */,
+			);
+			path = "Chronos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7BA8A31C201C2DC800F45423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA8A31D201C2DC800F45423 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA8A2DF201C2DC700F45423 /* Chronos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA8A333201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos" */;
+			buildPhases = (
+				7BA8A2DC201C2DC700F45423 /* Sources */,
+				7BA8A2DD201C2DC700F45423 /* Frameworks */,
+				7BA8A2DE201C2DC700F45423 /* Resources */,
+				7BA8A332201C2DC800F45423 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA8A30B201C2DC800F45423 /* PBXTargetDependency */,
+			);
+			name = Chronos;
+			productName = Chronos;
+			productReference = 7BA8A2E0201C2DC700F45423 /* Chronos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BA8A2F3201C2DC800F45423 /* ChronosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA8A336201C2DC800F45423 /* Build configuration list for PBXNativeTarget "ChronosTests" */;
+			buildPhases = (
+				7BA8A2F0201C2DC800F45423 /* Sources */,
+				7BA8A2F1201C2DC800F45423 /* Frameworks */,
+				7BA8A2F2201C2DC800F45423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA8A2F6201C2DC800F45423 /* PBXTargetDependency */,
+			);
+			name = ChronosTests;
+			productName = ChronosTests;
+			productReference = 7BA8A2F4201C2DC800F45423 /* ChronosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BA8A2FE201C2DC800F45423 /* ChronosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA8A339201C2DC800F45423 /* Build configuration list for PBXNativeTarget "ChronosUITests" */;
+			buildPhases = (
+				7BA8A2FB201C2DC800F45423 /* Sources */,
+				7BA8A2FC201C2DC800F45423 /* Frameworks */,
+				7BA8A2FD201C2DC800F45423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA8A301201C2DC800F45423 /* PBXTargetDependency */,
+			);
+			name = ChronosUITests;
+			productName = ChronosUITests;
+			productReference = 7BA8A2FF201C2DC800F45423 /* ChronosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7BA8A307201C2DC800F45423 /* Chronos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA8A32F201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos WatchKit App" */;
+			buildPhases = (
+				7BA8A306201C2DC800F45423 /* Resources */,
+				7BA8A32E201C2DC800F45423 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA8A31A201C2DC800F45423 /* PBXTargetDependency */,
+			);
+			name = "Chronos WatchKit App";
+			productName = "Chronos WatchKit App";
+			productReference = 7BA8A308201C2DC800F45423 /* Chronos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7BA8A316201C2DC800F45423 /* Chronos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA8A32B201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos WatchKit Extension" */;
+			buildPhases = (
+				7BA8A313201C2DC800F45423 /* Sources */,
+				7BA8A314201C2DC800F45423 /* Frameworks */,
+				7BA8A315201C2DC800F45423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chronos WatchKit Extension";
+			productName = "Chronos WatchKit Extension";
+			productReference = 7BA8A317201C2DC800F45423 /* Chronos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA8A2D8201C2DC700F45423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FurCode;
+				TargetAttributes = {
+					7BA8A2DF201C2DC700F45423 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJ4695B9GZ;
+					};
+					7BA8A2F3201C2DC800F45423 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJ4695B9GZ;
+						TestTargetID = 7BA8A2DF201C2DC700F45423;
+					};
+					7BA8A2FE201C2DC800F45423 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJ4695B9GZ;
+						TestTargetID = 7BA8A2DF201C2DC700F45423;
+					};
+					7BA8A307201C2DC800F45423 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJ4695B9GZ;
+					};
+					7BA8A316201C2DC800F45423 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WJ4695B9GZ;
+					};
+				};
+			};
+			buildConfigurationList = 7BA8A2DB201C2DC700F45423 /* Build configuration list for PBXProject "Chronos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA8A2D7201C2DC700F45423;
+			productRefGroup = 7BA8A2E1201C2DC700F45423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA8A2DF201C2DC700F45423 /* Chronos */,
+				7BA8A2F3201C2DC800F45423 /* ChronosTests */,
+				7BA8A2FE201C2DC800F45423 /* ChronosUITests */,
+				7BA8A307201C2DC800F45423 /* Chronos WatchKit App */,
+				7BA8A316201C2DC800F45423 /* Chronos WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA8A2DE201C2DC700F45423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A2EE201C2DC800F45423 /* LaunchScreen.storyboard in Resources */,
+				7BA8A2EB201C2DC800F45423 /* Assets.xcassets in Resources */,
+				7BA8A2E9201C2DC800F45423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2F2201C2DC800F45423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2FD201C2DC800F45423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A306201C2DC800F45423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A311201C2DC800F45423 /* Assets.xcassets in Resources */,
+				7BA8A30F201C2DC800F45423 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A315201C2DC800F45423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A327201C2DC800F45423 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA8A2DC201C2DC700F45423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A2E6201C2DC800F45423 /* ViewController.swift in Sources */,
+				7BA8A2E4201C2DC800F45423 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2F0201C2DC800F45423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A2F9201C2DC800F45423 /* ChronosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A2FB201C2DC800F45423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA8A304201C2DC800F45423 /* ChronosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA8A313201C2DC800F45423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B937095201C51CD008B3925 /* HomeInterfaceController.swift in Sources */,
+				7BA8A323201C2DC800F45423 /* NotificationController.swift in Sources */,
+				7BA8A321201C2DC800F45423 /* ExtensionDelegate.swift in Sources */,
+				7BA8A31F201C2DC800F45423 /* InterfaceController.swift in Sources */,
+				7B937099201C69EE008B3925 /* ButtonRowController.swift in Sources */,
+				7B93709B201D457F008B3925 /* OptionsInterfaceController.swift in Sources */,
+				7BA8A325201C2DC800F45423 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA8A2F6201C2DC800F45423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA8A2DF201C2DC700F45423 /* Chronos */;
+			targetProxy = 7BA8A2F5201C2DC800F45423 /* PBXContainerItemProxy */;
+		};
+		7BA8A301201C2DC800F45423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA8A2DF201C2DC700F45423 /* Chronos */;
+			targetProxy = 7BA8A300201C2DC800F45423 /* PBXContainerItemProxy */;
+		};
+		7BA8A30B201C2DC800F45423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA8A307201C2DC800F45423 /* Chronos WatchKit App */;
+			targetProxy = 7BA8A30A201C2DC800F45423 /* PBXContainerItemProxy */;
+		};
+		7BA8A31A201C2DC800F45423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BA8A316201C2DC800F45423 /* Chronos WatchKit Extension */;
+			targetProxy = 7BA8A319201C2DC800F45423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BA8A2E7201C2DC800F45423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA8A2E8201C2DC800F45423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA8A2EC201C2DC800F45423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA8A2ED201C2DC800F45423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA8A30D201C2DC800F45423 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA8A30E201C2DC800F45423 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BA8A329201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BA8A32A201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA8A32C201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chronos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		7BA8A32D201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chronos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		7BA8A330201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Chronos_WatchKit_Extension;
+				INFOPLIST_FILE = "Chronos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		7BA8A331201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Chronos_WatchKit_Extension;
+				INFOPLIST_FILE = "Chronos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		7BA8A334201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chronos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
+			};
+			name = Debug;
+		};
+		7BA8A335201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chronos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.Chronos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
+			};
+			name = Release;
+		};
+		7BA8A337201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChronosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.ChronosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronos.app/Chronos";
+			};
+			name = Debug;
+		};
+		7BA8A338201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChronosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.ChronosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronos.app/Chronos";
+			};
+			name = Release;
+		};
+		7BA8A33A201C2DC800F45423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChronosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.ChronosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chronos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7BA8A33B201C2DC800F45423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChronosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.furcode.ChronosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chronos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA8A2DB201C2DC700F45423 /* Build configuration list for PBXProject "Chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A329201C2DC800F45423 /* Debug */,
+				7BA8A32A201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA8A32B201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A32C201C2DC800F45423 /* Debug */,
+				7BA8A32D201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA8A32F201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A330201C2DC800F45423 /* Debug */,
+				7BA8A331201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA8A333201C2DC800F45423 /* Build configuration list for PBXNativeTarget "Chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A334201C2DC800F45423 /* Debug */,
+				7BA8A335201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA8A336201C2DC800F45423 /* Build configuration list for PBXNativeTarget "ChronosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A337201C2DC800F45423 /* Debug */,
+				7BA8A338201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA8A339201C2DC800F45423 /* Build configuration list for PBXNativeTarget "ChronosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA8A33A201C2DC800F45423 /* Debug */,
+				7BA8A33B201C2DC800F45423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA8A2D8201C2DC700F45423 /* Project object */;
+}
